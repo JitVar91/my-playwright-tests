@@ -12,8 +12,8 @@ jobs:
 
     steps:
 
-    - name: Run only 13Object.spec.js test
-         run: npx playwright test tests/14placeorder.spec.js
+      - name: Run only 13Object.spec.js test
+        run: npx playwright test tests/14placeorder.spec.js
       - name: Checkout code
         uses: actions/checkout@v4
 
