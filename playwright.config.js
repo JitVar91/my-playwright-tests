@@ -39,7 +39,7 @@ export default defineConfig({
       name: 'chromium',
     
       use: { ...devices['Desktop Chrome'] ,
-        headless: false, screenshot: 'on',trace: 'on',},
+        headless: true, screenshot: 'on',trace: 'on',},
       
     },
 
