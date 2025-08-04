@@ -1,0 +1,19 @@
+{
+  "name": "vs-for-play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test tests/14placeorder.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.12"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
